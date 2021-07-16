@@ -15,17 +15,28 @@ Kroger has adopted a Code of Conduct that we expect project participants to adhe
 
 We use GitHub to track issues and feature requests, as well as accept pull requests.
 
-## Pull Requests
+### Proposing a Change
+
+If you intend to change the public API, or make any non-trivial changes to the implementation, we recommend filing an issue.
+This lets us reach an agreement on your proposal before you put significant effort into it.
+
+If you’re only fixing a bug we still recommend to file an issue detailing what you’re fixing.
+This is helpful in case we don’t accept that specific fix but want to keep track of the issue.
+
+### Pull Requests
 
 We actively welcome your pull requests.
 
-1. Fork the repo and create your branch from `main`.
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
+- Fork the repo and create your branch from `main`.
+- Make commits of logical units.
+- Write meaningful, descriptive commit messages.
+- If you've added code that should be tested, add tests. Changes that lower test coverage may not be considered for merge.
+- If you've changed APIs, update the documentation.
+- Ensure the test suite passes.
+- Make sure your code lints.
+- All CI pipelines must pass.
 
-## Code Reviews
+### Code Reviews
 
 All submissions, including submissions by project members, require review. We
 use GitHub pull requests for this purpose. Consult
@@ -38,7 +49,7 @@ We use GitHub issues to track public bugs. Please ensure your description is cle
 
 If possible please provide a minimal demo of the problem.
 
-## Write bug reports with detail, background, and sample code
+### Write bug reports with detail, background, and sample code
 
 **Great Bug Reports** tend to have:
 
